@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+
+  /* letter-spacing: 10px; */
+  justify-content: center;
+}
+.pagespagination {
+  display: flex;
+  list-style: none;
+
+  /* letter-spacing: 10px; */
+}
+.active {
+  display: flex;
+  list-style: none;
+
+  /* letter-spacing: 10px; */
+}
