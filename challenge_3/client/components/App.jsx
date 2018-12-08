@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../css/App.css";
+import ScoreBoard from "./ScoreBoard.jsx";
 
 export default class App extends React.Component {
   constructor(props) {
@@ -58,7 +59,7 @@ export default class App extends React.Component {
             10
           </div>
         </div>
-        <div className={styles.scoreBoard} />
+        <ScoreBoard />
       </div>
     );
   }
